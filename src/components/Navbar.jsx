@@ -21,12 +21,12 @@ export default function Navbar() {
           <a href="/ppc"><li className="hover:text-red-500 cursor-pointer">PPC</li></a>
           <a href="/seo"><li className="hover:text-red-500 cursor-pointer">SEO</li></a>
           <a href="/webdesign"><li className="hover:text-red-500 cursor-pointer">Web Design</li></a>
-          <li className="hover:text-red-500 cursor-pointer">Solutions</li>
+          <a href="/solutions"><li className="hover:text-red-500 cursor-pointer">Solutions</li></a>
 
           {/* Industries Dropdown */}
-          <li className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
+          <a href="/industry"><li className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
             Industries <IoIosArrowDown className="text-[18px]" />
-          </li>
+          </li></a>
 
           {/* Agency Deck Dropdown */}
           <li className="flex items-center gap-1 hover:text-red-500 cursor-pointer">
