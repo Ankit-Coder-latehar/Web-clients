@@ -2,17 +2,17 @@ import React from "react";
 
 export default function ClientsSection() {
   const logos = [
-    "/Screenshot 2025-11-23 175211.png",
-    "/Screenshot 2025-11-23 175224.png",
-    "/Screenshot 2025-11-23 175238.png",
-    "/Screenshot 2025-11-23 175249.png",
-    "/Screenshot 2025-11-23 175258.png",
-    "/Screenshot 2025-11-23 175322.png",
-    "/Screenshot 2025-11-23 175333.png",
-    "/Screenshot 2025-11-23 175343.png",
-    "/Screenshot 2025-11-23 175352.png",
-    "/Screenshot 2025-11-23 175343.png",
-    "/Screenshot 2025-11-23 175404.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/mit-logo-1.webp",
+    "https://techdigitics.com/wp-content/uploads/2025/08/image-12-1.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/image-7-1.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/image-13-1.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/hindustan-online-1.webp",
+    "https://techdigitics.com/wp-content/uploads/2025/08/sharda-logo-1.webp",
+    "https://techdigitics.com/wp-content/uploads/2025/08/chitkara-logo-1.webp",
+    "https://techdigitics.com/wp-content/uploads/2025/08/image-3-2.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/image-16-1-1-e1761201166647.png",
+    "https://techdigitics.com/wp-content/uploads/2025/08/gia-logo-1.webp",
+    "https://techdigitics.com/wp-content/uploads/2025/08/the-sports-school-1.webp",
   ];
 
   // Duplicate array for smooth infinite effect

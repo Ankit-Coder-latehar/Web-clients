@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 export default function CaseStudySlider() {
   const slides = [
-    { img: "/Screenshot 2025-11-26 155803.png" },
-    { img: "/Screenshot 2025-11-26 155819.png" },
-    { img: "/Screenshot 2025-11-26 155833.png" },
-    { img: "/Screenshot 2025-11-26 155850.png" },
-    { img: "/Screenshot 2025-11-26 155909.png" },
-    { img: "/Screenshot 2025-11-26 155924.png" },
-    { img: "/Screenshot 2025-11-26 155950.png" },
+    { img: "https://www.slideegg.com/image/catalog/22324-digital-marketing-ppt-download.png" },
+    { img: "https://www.slideegg.com/image/catalog/41244-digital-marketing-services-ppt.png" },
+    { img: "https://www.collidu.com/media/catalog/product/img/2/6/26294c7a4cf31325e60fe552f64be0de9d30e5599cae195efa068d7bafbf51cb/digital-marketing-strategy-slide1.png" },
+    { img: "https://www.slideteam.net/media/catalog/product/cache/1280x720/d/i/digital_marketing_techniques_powerpoint_presentation_slides_Slide40.jpg" },
+    { img: "https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/8/8/8843f1a418dc189ecbf7a8dad03696dde6b23b23e3bf5c4cf966554bbde5b471/career-options-in-digital-marketing-mc-slide1.png" },
+    { img: "https://www.collidu.com/media/catalog/product/img/1/a/1a3c3649d48c8ba01ecd1611ec8e08fbf80b9c572f126ca784fbb121e5a3f34d/benefits-of-digital-marketing-slide1.png" },
+    { img: "https://www.slidegeeks.com/media/catalog/product/cache/1280x720/A/d/Advantages_Of_Digital_Marketing_Improves_Brand_Loyalty_Ppt_PowerPoint_Presentation_Icon_Layouts_Slide_1_1.jpg" },
   ];
 
   const [index, setIndex] = useState(0);
