@@ -64,7 +64,7 @@ export default function Navbar() {
           </a>
 
           {/* Industries Dropdown */}
-          <li
+          <a href="/industry"><li
             className="relative flex items-center gap-1 hover:text-red-500 cursor-pointer"
             onMouseEnter={() => setOpenIndustry(true)}
             onMouseLeave={() => setOpenIndustry(false)}
@@ -85,10 +85,10 @@ export default function Navbar() {
                 </a>
               </div>
             )}
-          </li>
+          </li></a>
 
           {/* Agency Deck Dropdown */}
-          <li
+          <a href="/agency"><li
             className="relative flex items-center gap-1 hover:text-red-500 cursor-pointer"
             onMouseEnter={() => setOpenAgencyDeck(true)}
             onMouseLeave={() => setOpenAgencyDeck(false)}
@@ -115,7 +115,7 @@ export default function Navbar() {
                 </a>
               </div>
             )}
-          </li>
+          </li></a>
         </ul>
 
         {/* CONTACT BUTTON */}
