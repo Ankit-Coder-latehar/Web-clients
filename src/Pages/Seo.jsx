@@ -5,6 +5,7 @@ import SeoProcess from '../components/Seo/SeoProcess'
 import WhySeoServices from '../components/Seo/WhySeo'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+import ContactSection from '../components/Contact/Contacts'
 
 function Seo() {
   return (
@@ -14,6 +15,7 @@ function Seo() {
         <SeoProcess/>
         <WhySeoServices/>
         <Testimonials/>
+        <ContactSection/>
         <Footer/>
     </div>
   )

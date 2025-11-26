@@ -6,6 +6,7 @@ import MarketingSection from "../components/DigitalMarketing";
 import WhyChooseUs from "../components/WhyChoose";
 import FAQ from "../components/Faq";
 import Footer from "../components/Footer";
+import KPISection from "../components/KpiSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ClientsSection />
       <StatsSection />
       <MarketingSection />
+      <KPISection/>
       <WhyChooseUs />
       <FAQ />
       <Footer />

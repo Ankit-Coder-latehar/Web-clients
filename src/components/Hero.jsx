@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-[#d83434] text-white py-28 md:py-40">
+    <section className="w-full bg-[#d83434] text-white py-20 md:py-20">
       <div className="max-w-5xl mx-auto text-center px-6">
 
         {/* Title */}

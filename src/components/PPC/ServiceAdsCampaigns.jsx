@@ -2,35 +2,35 @@ import React from "react";
 
 const services = [
   {
-    img: "/google.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Google-Logo.webp",
     title: "Google Ads",
   },
   {
-    img: "/meta.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Meta-Logo.webp",
     title: "Meta Ads",
   },
   {
-    img: "/linkedin.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Linkedin-logo.webp",
     title: "LinkedIn Ads",
   },
   {
-    img: "/microsoft.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Microsoft-logo.webp",
     title: "Microsoft Ads",
   },
   {
-    img: "/quora.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Quora-logo.webp",
     title: "Quora Ads",
   },
   {
-    img: "/programmatic.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Programmatic-Ads-logo.webp",
     title: "Programmatic Ads",
   },
   {
-    img: "/youtube.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Youtube-logo.webp",
     title: "YouTube Ads",
   },
   {
-    img: "/snapchat.png",
+    img: "https://techdigitics.com/wp-content/uploads/2025/08/Snapchat-logo-1.webp",
     title: "Snapchat Ads",
   },
 ];
@@ -51,7 +51,7 @@ export default function ServicesAdsCampaign() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-red-50 rounded-xl shadow-sm p-6 flex flex-col items-center justify-center hover:shadow-md transition"
+            className="bg-red-50 hover:bg-white rounded-xl shadow-sm p-6 flex flex-col items-center justify-center hover:shadow-md transition"
           >
             <img
               src={service.img}

@@ -9,6 +9,11 @@ import Web from "./Pages/web";
 import Solutions from "./Pages/Solutions";
 import Industry from "./Pages/Industry";
 import Education from "./Pages/Education";
+import Agency from "./Pages/Agency";
+import RegualrProgram from "./Pages/RegualrProgram";
+import OnlineProgram from "./Pages/OnlineProgram";
+import Contact from "./Pages/Contact";
+import About from "./Pages/About";
 
 
 export default function App() {
@@ -26,6 +31,16 @@ export default function App() {
             <Route path="/solutions" element={<Solutions/>} />
             <Route path="/industry" element={<Industry/>} />
             <Route path="/education" element={<Education/>} />
+            <Route path="/agency" element={<Agency/>} />
+            <Route path="/regular" element={<RegualrProgram/>} />
+            <Route path="/online" element={<OnlineProgram/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/about" element={<About/>} />
+
+
+
+
+
 
 
 

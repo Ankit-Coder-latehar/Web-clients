@@ -11,11 +11,13 @@ import Goal from '../components/Education/Goals'
 import MaximizeROI from '../components/WebDesign/Secons'
 import OnlineVsOfflineMarketing from '../components/Education/OnlineEducation'
 import EducationTabs from '../components/Education/EducationTabs'
+import ClientsSection from '../components/Clients'
 
 function Education() {
   return (
     <div>
         <HeroEducation/>
+        <ClientsSection/>
         <MaximizeROI/>
         <Goal/>
         <OnlineVsOfflineMarketing/>

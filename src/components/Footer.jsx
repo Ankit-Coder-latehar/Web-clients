@@ -18,8 +18,8 @@ export default function Footer() {
         <div>
           <h2 className="font-bold text-lg mb-4">Useful Links</h2>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:underline">About us</a></li>
-            <li><a href="#" className="hover:underline">Contact us</a></li>
+            <li><a href="/about" className="hover:underline">About us</a></li>
+            <li><a href="/contact" className="hover:underline">Contact us</a></li>
             <li><a href="#" className="hover:underline">Blog</a></li>
           </ul>
         </div>
@@ -40,22 +40,22 @@ export default function Footer() {
           <h2 className="font-bold text-lg mb-4 text-center">Partner With</h2>
           <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-6">
             <img
-              src=""
+              src="https://techdigitics.com/wp-content/uploads/2025/08/Google-Ads-1.webp"
               alt="partner1"
               className="w-32  bg-white p-2 rounded shadow"
             />
             <img
-              src=""
+              src="https://techdigitics.com/wp-content/uploads/2025/08/Meta-Ads.webp"
               alt="partner2"
               className="w-32  bg-white p-2 rounded shadow"
             />
             <img
-              src="/mnt/data/Screenshot 2025-11-24 223432.png"
+              src="https://techdigitics.com/wp-content/uploads/2025/08/Linkedin-ads.webp"
               alt="partner3"
               className="w-32 bg-white p-2 rounded shadow"
             />
             <img
-              src="/mnt/data/Screenshot 2025-11-24 223432.png"
+              src="https://techdigitics.com/wp-content/uploads/2025/08/Microsoft-Ads.webp"
               alt="partner4"
               className="w-32 bg-white p-2 rounded shadow"
             />

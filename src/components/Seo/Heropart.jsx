@@ -45,9 +45,9 @@ export default function HeroPart() {
           <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold shadow">
             Get Free Audit
           </button>
-          <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold shadow">
+          <a href="/about"><button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold shadow">
             About
-          </button>
+          </button></a>
         </div>
       </div>
     </div>

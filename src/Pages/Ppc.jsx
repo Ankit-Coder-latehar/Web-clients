@@ -8,6 +8,7 @@ import WhyChooseUs from "../components/WhyChoose";
 import PPCSection from "../components/PPC/PpcSection";
 import Testimonials from "../components/Testimonials";
 import PpcSection from "../components/PPC/Ppcsec";
+import ContactSection from "../components/Contact/Contacts";
 
 
 export default function Ppc() {
@@ -22,6 +23,7 @@ export default function Ppc() {
       <WhyChooseUs/>
       {/* <Testimonials/> */}
       <FAQSection/>
+      <ContactSection/>
       <Footer/>
     </>
   );
