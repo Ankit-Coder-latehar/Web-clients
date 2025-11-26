@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Ppc from "./Pages/Ppc";
 import Seo from "./Pages/Seo";
 import WebDesignHero from "./components/WebDesign/Herosect";
-import Web from "./Pages/web";
+import Web from "./Pages/Web.jsx";
 import Solutions from "./Pages/Solutions";
 import Industry from "./Pages/Industry";
 import Education from "./Pages/Education";
