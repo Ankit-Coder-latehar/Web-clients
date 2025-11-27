@@ -116,7 +116,7 @@ export default function Navbar() {
 
             {/* Industries Accordion */}
             <div>
-              <button onClick={() => setOpenIndustry(!openIndustry)} className="w-full flex justify-between py-2 text-lg border-b">
+             <button onClick={() => setOpenIndustry(!openIndustry)} className="w-full flex justify-between py-2 text-lg border-b">
                 Industries <IoIosArrowDown />
               </button>
               {openIndustry && (
@@ -128,7 +128,7 @@ export default function Navbar() {
 
             {/* Agency Deck Accordion */}
             <div>
-              <button onClick={() => setOpenAgencyDeck(!openAgencyDeck)} className="w-full flex justify-between py-2 text-lg border-b">
+             <button onClick={() => setOpenAgencyDeck(!openAgencyDeck)} className="w-full flex justify-between py-2 text-lg border-b">
                 Agency Deck <IoIosArrowDown />
               </button>
               {openAgencyDeck && (
