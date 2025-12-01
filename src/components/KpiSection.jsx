@@ -99,19 +99,23 @@ export default function KPISection() {
       </h2>
 
       <p className="text-gray-600 text-center max-w-3xl mt-3 mb-8 text-sm sm:text-base px-2">
-        If your website lacks consistent traffic, you’re missing valuable leads and sales. Our strategic PPC campaigns boost visibility, target high-intent users, and drive qualified traffic—maximizing clicks, conversions, and ROI.
+        If your website lacks consistent traffic, you’re missing valuable leads
+        and sales. Our strategic PPC campaigns boost visibility, target
+        high-intent users, and drive qualified traffic—maximizing clicks,
+        conversions, and ROI.
       </p>
 
       {/* Tabs */}
-      <div className="flex flex-wrap justify-center border border-gray-200 rounded-lg overflow-hidden mb-10 w-full max-w-3xl">
+      <div className="flex justify-center gap-6 mb-10 w-full overflow-x-auto no-scrollbar py-2">
         {tabs.map((tab) => (
           <button
             key={tab}
             onClick={() => setActive(tab)}
-            className={`px-4 sm:px-6 py-3 text-xs sm:text-sm font-medium border-r last:border-0 transition w-1/2 sm:w-auto text-center
-              ${active === tab
-                ? "text-red-500 border-b-2 border-red-500 bg-white"
-                : "text-gray-600 hover:bg-gray-50"
+            className={`text-sm sm:text-base font-medium pb-2 transition-all whitespace-nowrap
+              ${
+                active === tab
+                  ? "text-red-500 border-b-2 border-red-500"
+                  : "text-gray-600 hover:text-red-400"
               }`}
           >
             {tab}
@@ -121,7 +125,7 @@ export default function KPISection() {
 
       {/* Main Card */}
       <div className="w-full max-w-6xl bg-gradient-to-r from-red-100/50 to-red-50 shadow-xl rounded-3xl p-6 sm:p-10 flex flex-col md:flex-row gap-10">
-
+        
         {/* LEFT TEXT */}
         <div className="w-full md:w-1/2">
           <h3 className="text-xl sm:text-2xl font-bold text-red-600 mb-4">
@@ -148,7 +152,10 @@ export default function KPISection() {
         {/* RIGHT BOXES */}
         <div className="w-full md:w-1/3 flex flex-col gap-4">
           {content[active].items.map((text, index) => (
-            <div key={index} className="p-4 bg-white rounded-xl border text-gray-700 shadow-sm text-sm sm:text-base">
+            <div
+              key={index}
+              className="p-4 bg-white rounded-xl border text-gray-700 shadow-sm text-sm sm:text-base"
+            >
               {text}
             </div>
           ))}
